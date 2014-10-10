@@ -1,0 +1,15 @@
+{
+	"name" : "Opti",
+	"version" : "0.1",
+	"author" : "Amanpreet Singh",
+	"dependencies" : {
+		"grunt" : "",
+		"grunt-contrib-uglify" : "",
+		"browserify" : "",
+		"karma" : ""
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/apsdehal/Opti.js"
+	}
+}
