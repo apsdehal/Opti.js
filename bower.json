@@ -1,0 +1,6 @@
+{
+    "name": "opti",
+    "version": "1.0.0",
+    "description": "Registry to keep track of instantiated models",
+    "main": "build/opti.js"
+}

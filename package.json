@@ -1,5 +1,5 @@
 {
-	"name" : "Opti",
+	"name" : "opti",
 	"version" : "1.0.0",
 	"description" : "Registry to keep track of instantiated models",
 	"author": {
@@ -10,8 +10,10 @@
 	"dependencies" : {
 		"grunt" : "",
 		"grunt-contrib-uglify" : "",
-		"browserify" : "",
-		"karma" : ""
+	    "grunt-contrib-jasmine": "",
+		"grunt-browserify" : "",
+	    "grunt-karma": "",
+		"matchdep": ""
 	},
 	"repository" : {
 		"type" : "git",
