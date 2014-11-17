@@ -1,36 +1,41 @@
 {
-	"name" : "opti",
-	"version" : "1.0.0",
-	"description" : "Registry to keep track of instantiated models",
-	"author": {
-		"name": "Amanpreet Singh",
-		"email": "apsdehal@gmail.com",
-		"url": "https://apsdehal.in"
-	},
-	"dependencies" : {
-		"grunt" : "",
-		"grunt-contrib-uglify" : "",
-	    "grunt-contrib-jasmine": "",
-		"grunt-browserify" : "",
-	    "grunt-karma": "",
-		"matchdep": ""
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "http://github.com/apsdehal/Opti.js"
-	},
-	"license": "MIT",
-	"main": "src/opti.js",
-	"scripts" : {
-		"test": "grunt karma:unit"
-	},
-	"keywords" : [
-		"registry",
-		"optimize",
-		"model",
-		"store",
-		"save",
-		"init",
-		"opti"
-	]
+  "name": "opti",
+  "version": "1.0.0",
+  "description": "Registry to keep track of instantiated models",
+  "author": {
+    "name": "Amanpreet Singh",
+    "email": "apsdehal@gmail.com",
+    "url": "https://apsdehal.in"
+  },
+  "dependencies": {
+    "grunt": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-jasmine": "",
+    "grunt-browserify": "",
+    "grunt-karma": "",
+    "matchdep": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/apsdehal/Opti.js"
+  },
+  "license": "MIT",
+  "main": "src/opti.js",
+  "scripts": {
+    "test": "grunt karma:unit"
+  },
+  "keywords": [
+    "registry",
+    "optimize",
+    "model",
+    "store",
+    "save",
+    "init",
+    "opti"
+  ],
+  "devDependencies": {
+    "jasmine-core": "^2.1.2",
+    "karma-jasmine": "^0.3.0",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
 }
