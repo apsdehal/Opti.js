@@ -1,7 +1,12 @@
 {
 	"name" : "Opti",
-	"version" : "0.1",
-	"author" : "Amanpreet Singh",
+	"version" : "1.0.0",
+	"description" : "Registry to keep track of instantiated models",
+	"author": {
+		"name": "Amanpreet Singh",
+		"email": "apsdehal@gmail.com",
+		"url": "https://apsdehal.in"
+	},
 	"dependencies" : {
 		"grunt" : "",
 		"grunt-contrib-uglify" : "",
@@ -11,5 +16,19 @@
 	"repository" : {
 		"type" : "git",
 		"url" : "http://github.com/apsdehal/Opti.js"
-	}
+	},
+	"license": "MIT",
+	"main": "src/opti.js",
+	"scripts" : {
+		"test": "grunt karma:unit"
+	},
+	"keywords" : [
+		"registry",
+		"optimize",
+		"model",
+		"store",
+		"save",
+		"init",
+		"opti"
+	]
 }
