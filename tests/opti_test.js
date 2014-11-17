@@ -1,6 +1,6 @@
-var Registry = require("../../helpers/registry.js");
+var Registry = require("../src/opti.js");
 
-describe("Tests for registry", function () {
+describe("Tests for opti", function () {
 	var registry;
 	// Example model for registery
 	var model = {
